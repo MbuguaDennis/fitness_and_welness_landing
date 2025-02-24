@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Transform your life with Elite Fitness & Wellness. Join our luxury fitness center featuring expert trainers, state-of-the-art equipment, and personalized wellness programs.">
+  <title>Elite Fitness & Wellness - Transform Your Life Through Wellness</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <i data-lucide="dumbbell" class="brand-icon" aria-hidden="true"></i>
+       <a href="./index.html" class="back-home"><span>ELITE FITNESS</span></a> 
+      </div>
+      
+      <div class="nav-links">
+        <a href="#programs" class="nav-link">Programs</a>
+        <a href="#trainers" class="nav-link">Trainers</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <button class="btn btn-primary cta-button" aria-label="Join Now">
+          Start Free Trial
+          <span class="btn-highlight">7 Days</span>
+        </button>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#programs" class="mobile-link">Programs</a>
+      <a href="#trainers" class="mobile-link">Trainers</a>
+      <a href="#pricing" class="mobile-link">Pricing</a>
+      <button class="btn btn-primary btn-full cta-button">
+        Start Free Trial
+        <span class="btn-highlight">7 Days</span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Welcome">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="animate-fade-up">Transform Your Life<br>Through Wellness</h1>
+        <p class="hero-subtitle animate-fade-up">Experience luxury fitness and holistic wellness in our state-of-the-art facility</p>
+        <div class="hero-buttons animate-fade-up">
+          <button class="btn btn-primary cta-button" aria-label="Start your fitness journey">
+            Start Free Trial
+            <span class="btn-highlight">7 Days</span>
+          </button>
+          <button class="btn btn-outline" aria-label="Book a facility tour">
+            Book a Tour
+            <i data-lucide="arrow-right" class="btn-icon" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="hero-stats animate-fade-up">
+          <div class="stat">
+            <span class="stat-number">1000+</span>
+            <span class="stat-label">Active Members</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Expert Trainers</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Satisfaction</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <i data-lucide="chevron-down" class="scroll-icon"></i>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" aria-labelledby="features-title">
+      <div class="container">
+        <h2 id="features-title" class="section-title animate-fade-up">Why Choose Elite Fitness?</h2>
+        <div class="features-grid">
+          <div class="feature-card animate-fade-up">
+            <div class="feature-icon">
+              <i data-lucide="dumbbell" aria-hidden="true"></i>
+            </div>
+            <h3>Modern Equipment</h3>
+            <p>State-of-the-art machines and free weights for optimal training</p>
+          </div>
+          <div class="feature-card animate-fade-up">
+            <div class="feature-icon">
+              <i data-lucide="spa" aria-hidden="true"></i>
+            </div>
+            <h3>Wellness Spa</h3>
+            <p>Luxury recovery facilities including sauna and massage</p>
+          </div>
+          <div class="feature-card animate-fade-up">
+            <div class="feature-icon">
+              <i data-lucide="users" aria-hidden="true"></i>
+            </div>
+            <h3>Expert Trainers</h3>
+            <p>Certified professionals to guide your fitness journey</p>
+          </div>
+          <div class="feature-card animate-fade-up">
+            <div class="feature-icon">
+              <i data-lucide="clock" aria-hidden="true"></i>
+            </div>
+            <h3>24/7 Access</h3>
+            <p>Train on your schedule with unlimited facility access</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trainers -->
+    <section id="trainers" class="trainers" aria-labelledby="trainers-title">
+      <div class="container">
+        <h2 id="trainers-title" class="section-title animate-fade-up">Elite Training Staff</h2>
+        <p class="section-subtitle animate-fade-up">Train with the best in the industry</p>
+        <div class="trainers-grid">
+          <div class="trainer-card animate-fade-up">
+            <div class="trainer-image-wrapper">
+              <img src="./assets/fitness_lady_image.jfif" 
+                   alt="Sarah Johnson, Strength & Conditioning Coach"
+                   loading="lazy">
+              <div class="trainer-overlay">
+                <button class="btn btn-outline btn-sm">Book Session</button>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <h3>Sarah Johnson</h3>
+              <p class="specialty">Strength & Conditioning</p>
+              <p class="experience">10+ years experience</p>
+              <div class="trainer-badges">
+                <span class="badge">NASM Certified</span>
+                <span class="badge">CrossFit L3</span>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-card animate-fade-up">
+            <div class="trainer-image-wrapper">
+              <img src="./assets/fitness_gentleman2.jpg" 
+                   alt="Michael Chen, Yoga & Meditation Instructor"
+                   loading="lazy">
+              <div class="trainer-overlay">
+                <button class="btn btn-outline btn-sm">Book Session</button>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <h3>Michael Chen</h3>
+              <p class="specialty">Yoga & Meditation</p>
+              <p class="experience">8 years experience</p>
+              <div class="trainer-badges">
+                <span class="badge">RYT 500</span>
+                <span class="badge">Mindfulness</span>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-card animate-fade-up">
+            <div class="trainer-image-wrapper">
+              <img src="./assets/fitness_gentleman1.jpg" 
+                   alt="Emma Davis, HIIT & Functional Training Specialist"
+                   loading="lazy">
+              <div class="trainer-overlay">
+                <button class="btn btn-outline btn-sm">Book Session</button>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <h3>Emma Davis</h3>
+              <p class="specialty">HIIT & Functional Training</p>
+              <p class="experience">7 years experience</p>
+              <div class="trainer-badges">
+                <span class="badge">ACE Certified</span>
+                <span class="badge">TRX Trainer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <h2 id="pricing-title" class="section-title animate-fade-up">Membership Plans</h2>
+        <p class="section-subtitle animate-fade-up">Choose the perfect plan for your fitness journey</p>
+        <div class="pricing-grid">
+            <!-- FIRST CARD -->
+          <div class="pricing-card animate-fade-up">
+            <div class="pricing-header">
+              <h3>Basic Wellness</h3>
+              <div class="price">$99<span>/mo</span></div>
+              <p class="price-subtitle">Perfect for beginners</p>
+            </div>
+            <ul class="features-list" aria-label="Basic Wellness plan features">
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Access to Gym</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Group Classes</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Locker Room Access</li>
+            </ul>
+            <button class="btn btn-primary btn-full cta-button">
+              Start 7-Day Trial
+              <i data-lucide="arrow-right" class="btn-icon" aria-hidden="true"></i>
+            </button>
+          </div>
+              <!-- SECOND CARD -->
+          <div class="pricing-card featured animate-fade-up">
+            <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-header">
+              <h3>Premium Elite</h3>
+              <div class="price">$199<span>/mo</span></div>
+              <p class="price-subtitle">Best value for enthusiasts</p>
+            </div>
+            <ul class="features-list" aria-label="Premium Elite plan features">
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>All Basic Features</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Personal Training Session</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Spa Access</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Nutrition Consultation</li>
+            </ul>
+            <button class="btn btn-primary btn-full cta-button">
+              Start 7-Day Trial
+              <i data-lucide="arrow-right" class="btn-icon" aria-hidden="true"></i>
+            </button>
+          </div>
+              <!-- THIRD CARD -->
+          <div class="pricing-card animate-fade-up">
+            <div class="pricing-header">
+              <h3>Ultimate Luxury</h3>
+              <div class="price">$299<span>/mo</span></div>
+              <p class="price-subtitle">For the dedicated athlete</p>
+            </div>
+            <ul class="features-list" aria-label="Ultimate Luxury plan features">
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>All Premium Features</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Unlimited PT Sessions</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>Private Classes</li>
+              <li><i data-lucide="check-circle" aria-hidden="true"></i>VIP Lounge Access</li>
+            </ul>
+            <button class="btn btn-primary btn-full cta-button">
+              Start 7-Day Trial
+              <i data-lucide="arrow-right" class="btn-icon" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <h2 id="testimonials-title" class="section-title animate-fade-up">Success Stories</h2>
+        <p class="section-subtitle animate-fade-up">Real results from real members</p>
+        <div class="testimonials-grid">
+          <div class="testimonial-card animate-fade-up">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+            </div>
+            <img src="./assets/fitness_lady_image.jfif" 
+                 alt="Jessica M.'s transformation"
+                 loading="lazy">
+            <div class="testimonial-content">
+              <p>"Transformed my life completely. Lost 30lbs and gained confidence! The trainers here are exceptional and the community is so supportive."</p>
+              <div class="testimonial-author">
+                <p class="author">Jessica M.</p>
+                <p class="achievement">Lost 30 lbs in 6 months</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-fade-up">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+              <i data-lucide="star" class="star-filled" aria-hidden="true"></i>
+            </div>
+            <img src="./assets/fitness_gentleman1.jpg" 
+                 alt="David R.'s transformation"
+                 loading="lazy">
+            <div class="testimonial-content">
+              <p>"The wellness programs here are second to none. Feel 10 years younger! The spa facilities and recovery options make this gym truly elite."</p>
+              <div class="testimonial-author">
+                <p class="author">David R.</p>
+                <p class="achievement">Improved mobility & strength</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content animate-fade-up">
+          <h2>Ready to Transform Your Life?</h2>
+          <p>Start your journey today with a free 7-day trial</p>
+          <button class="btn btn-primary cta-button">
+            Start Free Trial
+            <span class="btn-highlight">7 Days</span>
+          </button>
+          <p class="cta-guarantee">30-day money-back guarantee</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <i data-lucide="dumbbell" class="brand-icon" aria-hidden="true"></i>
+          <span>ELITE FITNESS</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <a href="#programs">Programs</a>
+            <a href="#trainers">Trainers</a>
+            <a href="#pricing">Pricing</a>
+          </div>
+          <div class="footer-column">
+            <h3>Support</h3>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+            <a href="#privacy">Privacy Policy</a>
+          </div>
+          <div class="footer-column">
+            <h3>Location</h3>
+            <p>123 Fitness Street</p>
+            <p>New York, NY 10001</p>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Elite Fitness & Wellness. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Contact Bar -->
+  <div class="contact-bar" role="complementary">
+    <button class="btn btn-primary" aria-label="Call us now">
+      <i data-lucide="phone" aria-hidden="true"></i>
+      <span>Call Now</span>
+    </button>
+    <button class="btn btn-outline" aria-label="Book a tour">
+      <i data-lucide="calendar" aria-hidden="true"></i>
+      <span>Book Tour</span>
+    </button>
+  </div>
+
+  <!-- Cookie Consent -->
+  <div class="cookie-consent" id="cookieConsent" role="alert">
+    <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+    <button class="btn btn-primary btn-sm" id="acceptCookies">Accept</button>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
